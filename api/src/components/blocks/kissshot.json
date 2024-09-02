@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blocks_kissshots",
+  "info": {
+    "displayName": "kissshot",
+    "icon": "bell"
+  },
+  "options": {},
+  "attributes": {
+    "shinobu": {
+      "type": "enumeration",
+      "enum": [
+        "kisshot",
+        "asserol",
+        "best waifu",
+        "loving wife"
+      ]
+    }
+  }
+}

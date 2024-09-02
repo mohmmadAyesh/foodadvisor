@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ayoshes",
+  "info": {
+    "singularName": "ayosh",
+    "pluralName": "ayoshes",
+    "displayName": "ayosh",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "faq": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.faq-name"
+      ]
+    },
+    "ayoshuid": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "samo": {
+      "displayName": "SAMO",
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.samo"
+    },
+    "article": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article",
+      "inversedBy": "ayosh"
+    }
+  }
+}

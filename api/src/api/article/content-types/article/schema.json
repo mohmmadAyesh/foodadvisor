@@ -59,7 +59,8 @@
       "components": [
         "blocks.related-articles",
         "blocks.faq",
-        "blocks.cta-command-line"
+        "blocks.cta-command-line",
+        "blocks.kissshot"
       ],
       "required": false
     },
@@ -91,6 +92,12 @@
       },
       "customField": "plugin::ckeditor.CKEditor",
       "required": true
+    },
+    "ayosh": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::ayosh.ayosh",
+      "mappedBy": "article"
     }
   }
 }

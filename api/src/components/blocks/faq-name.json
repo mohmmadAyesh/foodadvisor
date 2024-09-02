@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_blocks_faq_names",
+  "info": {
+    "displayName": "faq-name",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
